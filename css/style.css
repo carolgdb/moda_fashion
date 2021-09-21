@@ -6,10 +6,22 @@ body{
 
 #principal{
     width: 1024px;
-    margin: auto;
+    margin: 20px auto;
 }
 
 .header-capa{
     height:50px;
     background-color: #162028;
+}
+
+.logotipo{
+    margin: 5px 0 0 135px;
+    
+}
+
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+
 }
