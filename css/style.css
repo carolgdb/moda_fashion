@@ -33,8 +33,18 @@ body{
     padding: 0;
 }
 
-.header nav li{
+.header-nav li{
     list-style: none;
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 0 15px 0 0;
+    padding: 10px;
+}
+
+.header-nav a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+
 }
