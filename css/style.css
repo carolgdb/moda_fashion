@@ -46,6 +46,11 @@ body{
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 5px;
+    transition: color 0.3s linear;
+}
+
+.header-nav a:hover{
+    color: white;
 
 }
 
@@ -110,7 +115,7 @@ body{
     margin: 50px 0;
 }
 
-#contact address{
+#contact adress{
     color: #143f52;
     text-transform: uppercase;
     font-size: 26px;
