@@ -5,18 +5,19 @@ body{
 }
 
 #principal{
-    width: 1024px;
+    width: 100%;
     margin: 20px auto;
 }
 
 .header-capa{
-    height:50px;
-    background-color: #162028;
-    position: relative;
+    height: 50px;
+    background-color: #e0e5e9;
+    position:relative;
 }
 
 .logotipo{
     margin: 5px 0 0 135px;
+    
     
 }
 
