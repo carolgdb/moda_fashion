@@ -7,6 +7,7 @@
     <title>Sale</title>
 
     <link rel="shortcut icon" href="imagens/ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div>
@@ -23,12 +24,24 @@
     <main>
         <div>
 
-            <a href="index.html"><prompt type="text"> voltar à página inicial</a>
+            <button id="myButton" class="float-left submit-button">Home</button> 
 
+            
             <section>
                 
             </section>
         </div>
+
+        
+        
+
+        <script type="text/javascript">
+            document.getElementById("myButton").onclick = function () {
+                location.href = "../index.html";
+            };
+        </script>
     </main>
+
+    
 </body>
 </html>
